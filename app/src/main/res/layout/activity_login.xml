@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".LoginActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="262dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/transparent"
+        android:editable="false"
+        android:inputType="none"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/gridLayout4"
+        app:layout_constraintStart_toStartOf="@+id/gridLayout4"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.053" />
+
+    <GridLayout
+        android:id="@+id/gridLayout4"
+        android:layout_width="266dp"
+        android:layout_height="195dp"
+        android:layout_below="@id/editText"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:columnCount="3"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Button
+            android:id="@+id/n1"
+            android:background="@drawable/transparent"
+            android:text="1" />
+
+        <Button
+            android:id="@+id/n2"
+            android:background="@drawable/transparent"
+            android:text="2" />
+
+        <Button
+            android:id="@+id/n3"
+            android:background="@drawable/transparent"
+            android:text="3" />
+
+        <Button
+            android:id="@+id/n4"
+            android:background="@drawable/transparent"
+            android:text="4" />
+
+        <Button
+            android:id="@+id/n5"
+            android:background="@drawable/transparent"
+            android:text="5" />
+
+        <Button
+            android:id="@+id/n6"
+            android:background="@drawable/transparent"
+            android:text="6" />
+
+        <Button
+            android:id="@+id/n7"
+            android:background="@drawable/transparent"
+            android:text="7" />
+
+        <Button
+            android:id="@+id/n8"
+            android:background="@drawable/transparent"
+            android:text="8" />
+
+        <Button
+            android:id="@+id/n9"
+            android:background="@drawable/transparent"
+            android:text="9" />
+
+        <Button
+            android:id="@+id/n0"
+            android:background="@drawable/transparent"
+            android:text="0" />
+
+        <Button
+            android:id="@+id/DEL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:text="DEL" />
+
+        <Button
+            android:id="@+id/CLR"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/transparent"
+            android:text="CLR" />
+
+    </GridLayout>
+
+    <Button
+        android:id="@+id/buttonsub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/gridLayout4"
+        app:layout_constraintVertical_bias="0.48" />
+</android.support.constraint.ConstraintLayout>
